@@ -1,0 +1,33 @@
+*{
+    background-color: #f3f3f3;
+    font-family: 'Quicksand', sans-serif;
+    color: #1E1E24;
+    text-align: center;
+    max-width: 100%;
+}
+body{
+    display: grid;
+    position: block;
+}
+h1{
+    font-size: 70px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+#posts{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 40px;
+    row-gap: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-items: left;
+    align-items: center;
+}
